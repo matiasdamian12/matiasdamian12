@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+    }
+    
+
+
+body {
+
+    
+    background-color: #8EC5FC;
+    background-image: linear-gradient(0deg, #8EC5FC 0%, #fffcfc 50%, #ffffff 100%);
+    
+}
+
+/* menu principal index */
+
+
+
+.container{
+display: flex;
+justify-content: center;
+align-content: center;
+
+background-image: url(../image/lovely.jpg);
+width: 600px;
+height: 400px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+margin: 150px ;
+box-shadow: 8px 8px 12px black;
+border-radius: 40px;
+}
+
+#pagina1 h1{
+display: flex;
+flex-direction: column;
+justify-content:center;
+text-align: center;
+font-size: 35px;
+font-family: fantasy;
+color:#fffcfc;
+text-shadow: 6px 6px 8px black;
+width: 100%;
+}
+
+#pagina1 a{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    text-align: center;
+    font-size: 35px;
+    font-family: fantasy;
+    color:#fffcfc;
+    text-shadow: 6px 6px 8px black;
+
+
+
+}
+
+div.navbar1{
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+/* prosupuesto */
+
+.pagina{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 100px;
+    font-size: 50px;
+    border-style:double;
+    border-radius: 20px;
+    border-color:mediumaquamarine ;
+    
+}
+
+
+.principalp{
+text-align: center;
+margin-left: 200px;
+margin-right:200px;
+}
+
+div.imput1{
+padding: 10px;
+margin-left: 1px;
+margin-right: 10px;
+border-radius: 20px;
+border-image: round;
+    
+}
+
+
+div.imput2{
+margin-left: 1px;
+margin-right: 10px;
+background-color: rgb(255, 255, 255, 0.609);
+border-radius: 20px;
+padding: 10px;
+
+
+}
+
