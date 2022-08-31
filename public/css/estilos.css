@@ -9,11 +9,9 @@
 
 
 body {
+    background-image: linear-gradient(#0F2027, #203A43,#2C5364);
+    width: 100%;
 
-    
-    background-color: #8EC5FC;
-    background-image: linear-gradient(0deg, #8EC5FC 0%, #fffcfc 50%, #ffffff 100%);
-    
 }
 
 /* menu principal index */
@@ -23,90 +21,196 @@ body {
 .container{
 display: flex;
 justify-content: center;
-align-content: center;
-
-background-image: url(../image/lovely.jpg);
-width: 600px;
-height: 400px;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-margin: 150px ;
+flex-direction: ;
+width: 100%;
+height: 500px;
+margin: 200px 20px 300px 20px;
 box-shadow: 8px 8px 12px black;
 border-radius: 40px;
-}
 
-#pagina1 h1{
-display: flex;
-flex-direction: column;
-justify-content:center;
+background-image: url(../image/lovely.jpg);
+background-position: center;
+background-attachment: contain;
+background-size: cover;
+
+}
+.imagen{
+
+height: 600px;
+
+	
+}
+.imagen h1{
 text-align: center;
-font-size: 35px;
-font-family: fantasy;
-color:#fffcfc;
-text-shadow: 6px 6px 8px black;
-width: 100%;
+font-size: 50px;
+font-family: 'Kaushan Script', cursive;
+color:#ffffff;
+text-shadow: 10px 10px 10px rgb(15, 15, 15);
+text-transform: uppercase;
+margin:80px 100px 80px 10px;
+padding:100px 20px 50px 20px;
+background: #4364734b;
+border-radius: 20px;
+
+
 }
 
-#pagina1 a{
-    
+.imagen a{
     display: flex;
-    flex-direction: column;
-    justify-content:flex-end;
-    text-align: center;
-    font-size: 35px;
-    font-family: fantasy;
-    color:#fffcfc;
-    text-shadow: 6px 6px 8px black;
-
-
-
-}
-
-div.navbar1{
+    justify-content: center;
+   font-size: 40px;
     font-family: 'Kaushan Script', cursive;
+    color:#fffcfc;
+    text-shadow: 10px 10px 10px black;
+text-decoration: none;
+
+
 }
 
+/* navegador */
+
+.navbar{
+    background-image:-webkit-linear-gradient(#436473,#172f3a)
+}
+
+.offcanvas-header{
+    background-image:-webkit-linear-gradient(#536976, #292E49) 
+}
+.offcanvas-body{
+    background-image:-webkit-linear-gradient(#536976, #292E49)
+}
 
 /* prosupuesto */
 
-.pagina{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    margin: 100px;
-    font-size: 50px;
-    border-style:double;
-    border-radius: 20px;
-    border-color:mediumaquamarine ;
-    
+.containerprosupuesto{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+width: 100%;
+color: aliceblue;
 }
 
 
-.principalp{
+.titulo{
+margin: 100px ;
+color: #fffcfc;
+font-size: 40px;
+font-family:'Kaushan Script', cursive ;
 text-align: center;
-margin-left: 200px;
-margin-right:200px;
+padding: 2px 200px 0px 200px;
+border-style:double;
+border-radius: 20px;
+
 }
 
-div.imput1{
-padding: 10px;
-margin-left: 1px;
-margin-right: 10px;
-border-radius: 20px;
-border-image: round;
+.fondoprosupuesto{
+    color: #fffcfc;
+    text-align: center;
+    padding: 2px 200px 10px 200px;
+    margin: auto;
+}
+
+#celular{
+ margin: auto;
+    text-align: center;
+}
+
+#descripciondefalla{
+    padding: 2px 100px 30px 100px;
+    text-align: center;
+margin: auto;
+}
+
+::placeholder{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* asaide */
+
+.container-cartas{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+background-image: ;
+
+
+}
+
+
+.carta1{
     
+display: flex;
+align-items: flex-start;
+margin-left:50px ;
+margin-right:10px ;
 }
 
 
-div.imput2{
-margin-left: 1px;
+.carta2{
+    
+
+
+margin-left: 20px;
 margin-right: 10px;
-background-color: rgb(255, 255, 255, 0.609);
+}
+
+.carta3{
+    
+
+    margin-left: 20px;
+    margin-right: 10px;
+    }
+
+/* registro */
+
+.container-registro{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+width: 100%;
+}
+
+
+.tituloregistro{
+margin: 100px ;
+color: #fffcfc;
+font-size: 40px;
+font-family:'Kaushan Script', cursive ;
+text-align: center;
+padding: 2px 200px 0px 200px;
+border-style:double;
 border-radius: 20px;
-padding: 10px;
 
 
 }
 
+
+#registroprincipal{
+
+text-align: center;
+color: aliceblue;
+padding: 0px 200px 12px 200px;
+
+}
+
+/* footer */
+.container-footer{
+    background: #0F2027;
+}
+
+
+@media only screen and (max-width:400px ) {
+   .container{
+   width: auto;
+   }
+.container-cartas{
+   width:auto;
+}
+
+}

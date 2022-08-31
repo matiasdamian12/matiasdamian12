@@ -1,0 +1,39 @@
+
+<div class="container-registro">
+
+<div class="tituloregistro">
+
+
+{{titulo1}}
+
+</div>
+
+<div class="row" id="registroprincipal">
+
+<form action="./registro" method="post">
+  
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email</label>
+    <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp">
+    
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+    <input type="password" class="form-control" name="contraseña" id="contraseña">
+  </div>
+  
+  <button type="submit" class="btn btn-primary" id="botonregistro">Registrar</button>
+
+
+
+
+    <div class="text-center">
+        <h2 class="text-danger">
+            {{ validacion }}
+        </h2>
+    </div>
+
+</form>
+</div>
+
+</div>
